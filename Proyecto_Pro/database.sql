@@ -1,0 +1,7 @@
+CREATE DATABASE test;
+USE test;
+
+CREATE TABLE alimentos (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nombre VARCHAR(100)
+);
